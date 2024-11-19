@@ -21,6 +21,11 @@
 include /path/to/your/rose-pine-16.theme
 ```
 
+## 16 vs 256 colors
+If your terminal emulator has a **Rosé Pine** theme installed, use one of the `*-16.theme` files. These are designed with `color0` — `color15` corresponding to the **Rosé Pine** palette colors defined in your terminal configuration.
+
+Otherwise, you should choose one of the `*-256.theme` files. These themes are created using colors from the [ANSI color cube](https://en.wikipedia.org/wiki/ANSI_escape_code#8-bit), selected to closely match the original **Rosé Pine** palette via techniques like [CIE76](https://en.wikipedia.org/wiki/Color_difference#CIE76) and should work with any terminal theme.
+
 ## Thanks to
 
 - [d2718nis](https://github.com/d2718nis)
